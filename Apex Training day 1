@@ -1,0 +1,41 @@
+public class Training
+{
+	public static void calculate()
+     {
+        for (Integer i = 1; i <= 100; i++)
+         {
+            if ( math.mod(i, 9) != 0)
+             {
+                System.debug(i);    
+            }
+        }
+    }
+    public static Integer sumTwoNumbers(Integer number1, Integer number2) 
+    {
+        Integer sum = number1 + number2;
+        return sum;
+    }
+    public static void generateNumberPyramid() {
+        Integer rows = 5;
+        Integer num = 1;
+        for (Integer i = 1; i <= rows; i++) {
+        
+            for (Integer k = 1; k <= rows - i; k++) {
+                System.debug(' ');
+            }
+            for (Integer j = 1; j <= i; j++) {
+                System.debug(num + ' ');
+                num++;
+            }
+            System.debug('\n');
+        }
+        }
+        // I use
+        public static void reverseString(){
+        String inputName = 'Prabhakaran';
+        String reverseName = inputName.reverse();
+        system.debug('Reversed Name = ' + reverseName);
+    
+        }
+    
+    }
